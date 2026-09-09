@@ -5,9 +5,9 @@ pub fn find(array: &[i32], key: i32) -> Option<usize> {
     while left <= right {
         let middle = (left + right) / 2;
 
-        if array[middle] == key {
+        if &array[middle] == &key {
             return Some(middle);
-        } else if array[middle] < key {
+        } else if &array[middle] < &key {
             left = middle + 1;
         } else {
             right = middle - 1
