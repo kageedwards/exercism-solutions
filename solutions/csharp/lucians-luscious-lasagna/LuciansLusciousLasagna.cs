@@ -4,9 +4,7 @@ class Lasagna
     const int COOKING_TIME = 40;
     
     // TODO: define the 'ExpectedMinutesInOven()' method
-    public int ExpectedMinutesInOven() {
-        return COOKING_TIME;
-    }
+    public int ExpectedMinutesInOven() => COOKING_TIME;
     
     // TODO: define the 'RemainingMinutesInOven()' method
     public int RemainingMinutesInOven(int minutesInOven) {
